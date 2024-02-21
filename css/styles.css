@@ -6,11 +6,15 @@ div {
 .div1 {
   width: 200px;
   height: 200px;
-  background: red;
+  background-image: url(./image/bird.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .div2 {
-  width: 200px;
-  height: 200px;
-  background: blue;
+  width: 100px;
+  height: 100px;
+  background-image: url(./image/cursor.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
