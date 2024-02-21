@@ -1,0 +1,15 @@
+.white {
+  background-color: red;
+  height: 40px;
+  max-width: 100%;
+  position: absolute;
+}
+.blue {
+  background-color: blue;
+  height: 40px;
+  max-width: 100%;
+  position: absolute;
+}
+section p {
+  position: relative;
+}
