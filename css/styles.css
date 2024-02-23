@@ -1,3 +1,6 @@
+body {
+  background-image: url(image/wall2.jpg);
+}
 div {
   float: left;
   padding: 15px;
@@ -22,47 +25,48 @@ div {
   position: relative;
   animation: coursormove 5s infinite;
 }
-@keyframes coursormove {
-  0% {
-    top: 0px;
-    left: 0px;
-  }
-  25% {
-    top: 500px;
-    left: 0px;
-  }
-  50% {
-    top: 500px;
-    left: 500px;
-  }
-  75% {
-    top: 0px;
-    left: 500px;
-  }
-  100% {
-    top: 0px;
-    left: 0px;
-  }
-}
+
 @keyframes birdmove {
   0% {
     top: 0px;
     left: 100px;
   }
   25% {
-    top: 0px;
+    top: 500px;
     left: 100px;
   }
   50% {
     top: 500px;
-    left: 100px;
+    left: 1000px;
   }
   75% {
-    top: 500px;
-    left: 600px;
+    top: 0px;
+    left: 1000px;
   }
   100% {
     top: 0px;
     left: 100px;
+  }
+}
+@keyframes coursormove {
+  0% {
+    top: 0px;
+    left: 900px;
+  }
+  25% {
+    top: 0px;
+    left: 0px;
+  }
+  50% {
+    top: 500px;
+    left: 0px;
+  }
+  75% {
+    top: 500px;
+    left: 900px;
+  }
+  100% {
+    top: 0px;
+    left: 900px;
   }
 }
